@@ -19,7 +19,7 @@ Video Instructions: https://www.youtube.com/c/awesomedevnotes
 
 <br>
 <p align="center">
-<img src="assets/timberlogger.png" alt="Timber Logger Integration awesomedevnotes - androiddevnotes youtube thumbnail"></img>
+<img src="assets/memoryleakrecyclerviewadapter.png" alt="Memory Leak RecyclerView Adapter awesomedevnotes - androiddevnotes youtube thumbnail"></img>
 </p>
 
 <br>
