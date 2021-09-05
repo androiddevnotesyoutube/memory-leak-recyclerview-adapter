@@ -45,7 +45,7 @@ class A1ListFragment : Fragment(), A1ListRecyclerViewAdapter.OnA1ListItemClicked
         // We are setting fields to null before `super.onDestroyView()` because official ViewBinding
         // sample, Mozilla Fenix app also do that. I do not know the exact reason.
 
-        a1ListRecyclerViewAdapter = null
+        // a1ListRecyclerViewAdapter = null
         _binding = null
         super.onDestroyView()
     }
