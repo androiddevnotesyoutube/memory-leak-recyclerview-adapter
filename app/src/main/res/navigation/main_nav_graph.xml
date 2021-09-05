@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/a1ListFragment">
+
+    <fragment
+        android:id="@+id/a1ListFragment"
+        android:name="com.androiddevnotes.memoryleakrecyclerviewadapter.A1ListFragment"
+        android:label="A1ListFragment" >
+        <action
+            android:id="@+id/action_a1ListFragment_to_a2DetailFragment"
+            app:destination="@id/a2DetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/a2DetailFragment"
+        android:name="com.androiddevnotes.memoryleakrecyclerviewadapter.A2DetailFragment"
+        android:label="A2DetailFragment" />
+</navigation>

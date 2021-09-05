@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Memory Leak RecyclerView Adapter</string>
+    <string name="textview">TextView</string>
+</resources>
