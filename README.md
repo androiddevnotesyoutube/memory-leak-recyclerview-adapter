@@ -32,7 +32,7 @@ Only the relevant and important code is shown in README. Refer to entire source 
 
 ```kotlin 
 
-// Important part is wher adapter is set to null in `onDestroyView`
+// Important part is where adapter is set to null in `onDestroyView`
 
 /** Fragment containing RecyclerView */
 class A1ListFragment : Fragment(), A1ListRecyclerViewAdapter.OnA1ListItemClickedListener {
